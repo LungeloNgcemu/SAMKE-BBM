@@ -56,7 +56,7 @@ function AboutPreview() {
           </h2>
           <p style={{ marginTop: 24, fontSize: 17, lineHeight: 1.7, color: 'var(--ink-soft)', maxWidth: 520 }}>
             Samkelisiwe Mhlongo runs <em>Stitched by BBM</em> from Durban, designing
-            and producing custom clothing for individuals, clubs, and political
+            and producing custom clothing for individuals, clubs, political
             and community organisations across South Africa. Her workshop balances
             handmade craft with full production oversight — every piece is drafted,
             sewn, and finished to her standard.
