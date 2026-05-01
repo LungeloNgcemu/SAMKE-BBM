@@ -1041,9 +1041,22 @@
   .hero-cta .btn { width: 100%; justify-content: center; }
   .hero-editorial { padding: 56px 0 40px; }
   .hero-editorial-grid { gap: 32px; }
-  .hero-editorial-img { padding: 24px 16px; }
+  .hero-editorial-img { padding: 24px 16px 16px; display: flex; flex-direction: column; align-items: center; }
   .hero-logo-stage { width: 220px; height: 220px; }
-  .hero-editorial-tag { font-size: 10px; padding: 8px 12px; }
+  /* Stack tag + signature below the logo instead of absolute-overlapping it */
+  .hero-logo-signature {
+    position: static;
+    transform: none;
+    margin-top: 24px;
+    justify-content: center;
+  }
+  .hero-editorial-tag {
+    position: static;
+    margin-top: 18px;
+    align-self: flex-start;
+    font-size: 10px;
+    padding: 8px 12px;
+  }
   .hero-editorial-sticker { width: 80px; height: 80px; }
   .hero-boutique { padding: 56px 0 40px; }
   .hero-boutique-frame { padding: 48px 20px 32px; }
